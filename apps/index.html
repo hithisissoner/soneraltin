@@ -14,7 +14,7 @@
   <title>iPhone Apps | Sleep Debt &amp; Apple Health | Soner Altın</title>
   <meta name="description" content="iPhone apps by Soner Altın. Baseline - Sleep Debt tracks sleep debt from Apple Health and uses Apple Intelligence for on-device analysis.">
   <meta name="robots" content="index,follow">
-  <meta name="theme-color" content="#07090d">
+  <meta name="theme-color" content="#0a0a0c">
   <link rel="canonical" href="https://soneraltin.com/apps/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="iPhone Apps | Sleep Debt &amp; Apple Health">
@@ -23,6 +23,8 @@
   <meta property="og:image" content="https://soneraltin.com/screenshots/baseline/01-today.png">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="../assets/site.css">
+  <link rel="preload" as="image" href="../screenshots/baseline/01-today.png">
+  <script>document.documentElement.classList.add("js")</script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -35,36 +37,52 @@
   </script>
 </head>
 <body>
-  <header class="site">
-    <div class="wrap wide">
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap bar">
       <a class="brand" href="../">Soner Altın</a>
-      <nav>
+      <nav aria-label="Primary">
         <a href="./" aria-current="page">Apps</a>
         <a href="baseline/">Baseline</a>
+        <a href="baseline/privacy/">Privacy</a>
       </nav>
     </div>
   </header>
-  <main>
+  <main id="content">
     <section class="hero">
-      <div class="wrap wide">
-        <p class="kicker">Apps</p>
-        <h1>iPhone apps for sleep and recovery.</h1>
-        <p class="lede">Each app has its own page: what it reads from Apple Health, where Apple Intelligence fits, and what stays on the device.</p>
+      <div class="wrap">
+        <p class="eyebrow rise">Apps</p>
+        <h1 class="display rise rise-2">iPhone apps for sleep and recovery.</h1>
+        <p class="lede rise rise-3">Each app has its own page: what it reads from Apple Health, where Apple Intelligence fits, and what stays on the device.</p>
       </div>
     </section>
-    <div class="wrap wide">
-      <ul class="card-list">
-        <li>
-          <a class="card" href="baseline/">
-            <strong>Baseline - Sleep Debt</strong>
-            <span>Sleep debt, HRV, resting heart rate, and mood. Apple Intelligence explains the result in plain language. Wellness only, not a diagnosis.</span>
-          </a>
-        </li>
-      </ul>
+    <div class="wrap" style="padding-bottom:4.5rem">
+      <a class="product reveal" href="baseline/">
+        <figure class="shot">
+          <div class="device">
+            <img src="../screenshots/baseline/01-today.png" alt="Baseline Sleep Debt Today screen with one daily action from Apple Health sleep and recovery" width="1260" height="2566" fetchpriority="high" decoding="async">
+          </div>
+          <figcaption>Today</figcaption>
+        </figure>
+        <div>
+          <p class="eyebrow">iPhone · Apple Health</p>
+          <h2>Baseline - Sleep Debt</h2>
+          <p>Sleep debt, HRV, resting heart rate, and mood. Apple Intelligence explains the result in plain language. Wellness only, not a diagnosis.</p>
+        </div>
+      </a>
     </div>
   </main>
-  <footer class="site">
-    <div class="wrap wide"><a href="../">Home</a> · <a href="baseline/privacy/">Baseline privacy policy</a></div>
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <p>Soner Altın</p>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="../">Home</a>
+        <a href="baseline/">Baseline - Sleep Debt</a>
+        <a href="baseline/privacy/">Baseline privacy policy</a>
+        <a href="mailto:hello@soneraltin.com">hello@soneraltin.com</a>
+      </nav>
+    </div>
   </footer>
+  <script src="../assets/site.js"></script>
 </body>
 </html>

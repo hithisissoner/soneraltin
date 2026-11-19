@@ -14,7 +14,7 @@
   <title>Baseline - Sleep Debt App | Apple Health &amp; Apple Intelligence</title>
   <meta name="description" content="Baseline is an iPhone sleep debt app. It reads Apple Health sleep, heart rate, HRV, and resting heart rate. Apple Intelligence explains the numbers on your device. Not a medical device.">
   <meta name="robots" content="index,follow">
-  <meta name="theme-color" content="#07090d">
+  <meta name="theme-color" content="#0a0a0c">
   <link rel="canonical" href="https://soneraltin.com/apps/baseline/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Soner Altın">
@@ -24,6 +24,8 @@
   <meta property="og:image" content="https://soneraltin.com/screenshots/baseline/05-debt.png">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="../../assets/site.css">
+  <link rel="preload" as="image" href="../../screenshots/baseline/05-debt.png">
+  <script>document.documentElement.classList.add("js")</script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -104,133 +106,241 @@
   </script>
 </head>
 <body>
-  <header class="site">
-    <div class="wrap wide">
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap bar">
       <a class="brand" href="../../">Soner Altın</a>
-      <nav>
+      <nav aria-label="Primary">
         <a href="../">Apps</a>
         <a href="./" aria-current="page">Baseline</a>
         <a href="privacy/">Privacy</a>
       </nav>
     </div>
   </header>
-  <main>
+  <main id="content">
     <section class="hero">
-      <div class="wrap wide">
-        <p class="kicker">Sleep debt app · iPhone</p>
-        <h1>Baseline - Sleep Debt</h1>
-        <p class="lede">An Apple Health sleep tracker that shows the debt, the heart rate behind the night, and one action for today. Apple Intelligence turns those readings into a clearer analysis, on the iPhone, without changing the numbers.</p>
-        <div class="badges">
+      <div class="wrap">
+        <p class="eyebrow rise">Sleep debt app · iPhone</p>
+        <h1 class="product-name rise rise-2">Baseline <span>- Sleep Debt</span></h1>
+        <p class="lede rise rise-3">An Apple Health sleep tracker that shows the debt, the heart rate behind the night, and one action for today. Apple Intelligence turns those readings into a clearer analysis, on the iPhone, without changing the numbers.</p>
+        <div class="badges rise rise-4">
           <span class="badge">Apple Health</span>
           <span class="badge">Apple Intelligence</span>
           <span class="badge">Sleep debt</span>
           <span class="badge">HRV</span>
           <span class="badge">On device</span>
         </div>
-        <div class="actions">
-          <a class="button" href="privacy/">Privacy policy</a>
-          <a class="button ghost" href="mailto:hello@soneraltin.com">hello@soneraltin.com</a>
+        <div class="actions rise rise-4">
+          <a class="btn" href="privacy/">Privacy policy</a>
+          <a class="btn btn-ghost" href="mailto:hello@soneraltin.com">hello@soneraltin.com</a>
+        </div>
+        <div class="hero-visual">
+          <figure class="shot">
+            <div class="device">
+              <img src="../../screenshots/baseline/05-debt.png" alt="Sleep debt chart in Baseline for the last seven nights against a nightly sleep need" width="1260" height="2573" fetchpriority="high" decoding="async">
+            </div>
+            <figcaption>Sleep Debt</figcaption>
+          </figure>
         </div>
       </div>
     </section>
 
-    <div class="wrap wide">
-      <div class="shots" aria-label="Baseline Sleep Debt iPhone screenshots">
-        <figure class="shot" data-file="01-today.png">
-          <img src="../../screenshots/baseline/01-today.png" alt="Baseline Sleep Debt Today screen with one daily action from Apple Health sleep and recovery" width="390" height="844" onerror="var f=this.closest('figure');this.remove();f.classList.add('missing')">
-          <figcaption>Today</figcaption>
-        </figure>
-        <figure class="shot" data-file="05-debt.png">
-          <img src="../../screenshots/baseline/05-debt.png" alt="Sleep debt chart in Baseline for the last seven nights against a nightly sleep need" width="390" height="844" onerror="var f=this.closest('figure');this.remove();f.classList.add('missing')">
-          <figcaption>Sleep Debt</figcaption>
-        </figure>
-        <figure class="shot" data-file="02-sleep.png">
-          <img src="../../screenshots/baseline/02-sleep.png" alt="Baseline sleep tab with stages, tonight plan, and sleep timing from Apple Health" width="390" height="844" onerror="var f=this.closest('figure');this.remove();f.classList.add('missing')">
-          <figcaption>Sleep</figcaption>
-        </figure>
-        <figure class="shot" data-file="03-heart.png">
-          <img src="../../screenshots/baseline/03-heart.png" alt="Baseline heart screen with HRV, resting heart rate, and readiness" width="390" height="844" onerror="var f=this.closest('figure');this.remove();f.classList.add('missing')">
-          <figcaption>Heart</figcaption>
-        </figure>
-        <figure class="shot" data-file="04-trends.png">
-          <img src="../../screenshots/baseline/04-trends.png" alt="Baseline trends for sleep debt, heart rate, and recovery over time" width="390" height="844" onerror="var f=this.closest('figure');this.remove();f.classList.add('missing')">
-          <figcaption>Trends</figcaption>
-        </figure>
-        <figure class="shot" data-file="06-mood.png">
-          <img src="../../screenshots/baseline/06-mood.png" alt="Baseline mood check-in with an Apple Intelligence note on mood and deep sleep" width="390" height="844" onerror="var f=this.closest('figure');this.remove();f.classList.add('missing')">
-          <figcaption>Mood</figcaption>
-        </figure>
+    <section class="features" aria-labelledby="features-title">
+      <div class="wrap section-intro reveal">
+        <p class="eyebrow">On this iPhone</p>
+        <h2 id="features-title">Sleep debt, the heart behind the night, and one action for today.</h2>
       </div>
-    </div>
+      <nav class="feature-nav" aria-label="Features">
+        <ul class="wrap">
+          <li><a href="#sleep" data-chapter-link="sleep" aria-current="true">Sleep debt</a></li>
+          <li><a href="#heart" data-chapter-link="heart">Heart</a></li>
+          <li><a href="#today" data-chapter-link="today">Today</a></li>
+          <li><a href="#mood" data-chapter-link="mood">Mood</a></li>
+        </ul>
+      </nav>
+      <div class="wrap chapters">
+        <article class="chapter" id="sleep" data-chapter="sleep">
+          <div class="chapter-copy reveal">
+            <p class="eyebrow">Sleep</p>
+            <h2>Sleep debt, from the nights already in Apple Health</h2>
+            <p>Baseline is a <strong>sleep debt app for iPhone</strong>. It compares the last seven nights with the hours you need, then keeps sleep stages, tonight’s plan, and timing on their own screens.</p>
+            <p>Last seven nights against your need, plus stages, bedtime target, and wake timing from Apple Health.</p>
+          </div>
+          <figure class="shot">
+            <div class="device">
+              <img src="../../screenshots/baseline/02-sleep.png" alt="Baseline sleep tab with stages, tonight plan, and sleep timing from Apple Health" width="1260" height="2546" loading="lazy" decoding="async">
+            </div>
+            <figcaption>Sleep</figcaption>
+          </figure>
+        </article>
 
-    <div class="wrap wide prose">
-      <h2>Sleep debt, from the nights already in Apple Health</h2>
-      <p>Baseline is a <strong>sleep debt app for iPhone</strong>. It compares the last seven nights with the hours you need, then keeps sleep stages, tonight’s plan, and timing on their own screens. The Today tab does not average everything into one vague score. It names the signal that matters and picks a single action.</p>
-      <p>Short history stays on “Calibrating.” Baseline does not fill the gap with a guessed number. A Home Screen widget repeats that same today action.</p>
+        <article class="chapter" id="heart" data-chapter="heart">
+          <div class="chapter-copy reveal">
+            <p class="eyebrow">Heart</p>
+            <h2>HRV and readiness</h2>
+            <p>Heart rate, heart rate variability, and resting heart rate, read as recovery and as the overnight curve.</p>
+          </div>
+          <figure class="shot">
+            <div class="device">
+              <img src="../../screenshots/baseline/03-heart.png" alt="Baseline heart screen with HRV, resting heart rate, and readiness" width="1260" height="2546" loading="lazy" decoding="async">
+            </div>
+            <figcaption>Heart</figcaption>
+          </figure>
+        </article>
 
-      <div class="grid">
-        <article class="tile">
-          <p class="eyebrow">Sleep</p>
-          <h3>Sleep debt tracker</h3>
-          <p>Last seven nights against your need, plus stages, bedtime target, and wake timing from Apple Health.</p>
+        <article class="chapter" id="today" data-chapter="today">
+          <div class="chapter-copy reveal">
+            <p class="eyebrow">Today</p>
+            <h2>One action</h2>
+            <p>The Today tab does not average everything into one vague score. It names the signal that matters and picks a single action.</p>
+            <p>A single suggestion for the day. The chosen action stays fixed even when the wording is rewritten.</p>
+            <p>Short history stays on “Calibrating.” Baseline does not fill the gap with a guessed number. A Home Screen widget repeats that same today action.</p>
+          </div>
+          <figure class="shot">
+            <div class="device">
+              <img src="../../screenshots/baseline/01-today.png" alt="Baseline Sleep Debt Today screen with one daily action from Apple Health sleep and recovery" width="1260" height="2566" loading="lazy" decoding="async">
+            </div>
+            <figcaption>Today</figcaption>
+          </figure>
         </article>
-        <article class="tile">
-          <p class="eyebrow">Heart</p>
-          <h3>HRV and readiness</h3>
-          <p>Heart rate, heart rate variability, and resting heart rate, read as recovery and as the overnight curve.</p>
-        </article>
-        <article class="tile">
-          <p class="eyebrow">Today</p>
-          <h3>One action</h3>
-          <p>A single suggestion for the day. The chosen action stays fixed even when the wording is rewritten.</p>
-        </article>
-        <article class="tile">
-          <p class="eyebrow">Mood</p>
-          <h3>How the day felt</h3>
-          <p>Morning, afternoon, and evening check-ins, then a look at how that lines up with deep sleep.</p>
+
+        <article class="chapter" id="mood" data-chapter="mood">
+          <div class="chapter-copy reveal">
+            <p class="eyebrow">Mood</p>
+            <h2>How the day felt</h2>
+            <p>Morning, afternoon, and evening check-ins, then a look at how that lines up with deep sleep.</p>
+          </div>
+          <figure class="shot">
+            <div class="device">
+              <img src="../../screenshots/baseline/06-mood.png" alt="Baseline mood check-in with an Apple Intelligence note on mood and deep sleep" width="1260" height="2563" loading="lazy" decoding="async">
+            </div>
+            <figcaption>Mood</figcaption>
+          </figure>
         </article>
       </div>
+    </section>
 
-      <h2>Apple Intelligence makes the analysis easier to read</h2>
-      <div class="ai">
+    <section class="band" id="intelligence">
+      <div class="wrap">
+      <div class="prose reveal">
         <p class="eyebrow">On your iPhone</p>
-        <h3>More meaningful wording. The same measurements.</h3>
+        <h2>Apple Intelligence makes the analysis easier to read</h2>
+        <p class="statement">More meaningful wording. The same measurements.</p>
         <p>Where Apple Intelligence is available, Baseline uses the on-device model to explain what the calculated result means. It writes the note under tonight’s sleep target, the reason for today’s suggestion, the heart and readiness summary, trend commentary, and the link between mood and deep sleep. You can also ask about the last 30 days and today.</p>
         <p>The model is told to keep every number and clock time exactly, and not to invent a measurement or a diagnosis. If Apple Intelligence is unavailable, the same facts appear in plain text. Summaries run on the device and are not stored on our server.</p>
       </div>
-
-      <h2>What this sleep app is not</h2>
-      <p>Baseline is wellness software. It is not a medical device and it does not diagnose, treat, or prevent any condition. Heart-rate dipping, readiness, and sleep debt are readings of your own history, not a clinical test.</p>
-
-      <h2>Apple Health data used on this iPhone</h2>
-      <p>With permission, Baseline reads heart rate, heart rate variability, resting heart rate, sleep, and date of birth. It does not write back to Apple Health. Those readings are not sold and are not sent to an advertising network.</p>
-      <p>Sign in with Apple keeps a sleep schedule and mood check-ins with your account. Premium is an optional one-time purchase through Apple. It unlocks nothing: the free app and Premium show the same sleep debt tools. It exists only to support development.</p>
-
-      <h2>Sleep debt app questions</h2>
-      <div class="faq">
-        <details>
-          <summary>What does a sleep debt number mean here?</summary>
-          <p>It is the recent shortfall against the hours you set as your need, shown from Apple Health sleep. It is a wellness figure for the last week, not a medical debt and not a diagnosis.</p>
-        </details>
-        <details>
-          <summary>Does Apple Intelligence change my sleep or heart numbers?</summary>
-          <p>No. Apple Intelligence rewrites the explanation. Sleep debt, heart rate, HRV, readiness, and the chosen action stay as calculated. If the model is off, you still see the plain result.</p>
-        </details>
-        <details>
-          <summary>Which iPhones get the AI analysis?</summary>
-          <p>The Apple Intelligence writing appears when Apple Intelligence is available and turned on for that iPhone. Other iPhones still get the sleep debt tracker, heart screens, mood, and today’s action in plain text.</p>
-        </details>
-        <details>
-          <summary>Is my Apple Health data uploaded for the AI?</summary>
-          <p>The summaries are generated on device and are not stored on our server. Account data is separate: email if Apple provides it, your sleep schedule, and mood check-ins. Details are in the <a href="privacy/">Baseline privacy policy</a>.</p>
-        </details>
       </div>
+    </section>
 
-      <p class="meta">Support for Baseline - Sleep Debt. Write to <a href="mailto:hello@soneraltin.com">hello@soneraltin.com</a> with your Apple ID email if the question is about an account or a purchase.</p>
-    </div>
+    <section class="block" id="wellness">
+      <div class="wrap">
+      <div class="prose reveal">
+        <h2>What this sleep app is not</h2>
+        <p>Baseline is wellness software. It is not a medical device and it does not diagnose, treat, or prevent any condition. Heart-rate dipping, readiness, and sleep debt are readings of your own history, not a clinical test.</p>
+        <h2>Apple Health data used on this iPhone</h2>
+        <p>With permission, Baseline reads heart rate, heart rate variability, resting heart rate, sleep, and date of birth. It does not write back to Apple Health. Those readings are not sold and are not sent to an advertising network.</p>
+        <p>Sign in with Apple keeps a sleep schedule and mood check-ins with your account. Premium is an optional one-time purchase through Apple. It unlocks nothing: the free app and Premium show the same sleep debt tools. It exists only to support development.</p>
+      </div>
+      </div>
+    </section>
+
+    <section class="block" id="screens" aria-labelledby="screens-title">
+      <div class="wrap">
+        <div class="gallery-head reveal">
+          <p class="eyebrow">Screens</p>
+          <h2 id="screens-title">On iPhone</h2>
+        </div>
+        <ul class="gallery" tabindex="0" aria-label="Baseline Sleep Debt iPhone screenshots">
+          <li>
+            <figure class="shot">
+              <div class="device">
+                <img src="../../screenshots/baseline/01-today.png" alt="Baseline Sleep Debt Today screen with one daily action from Apple Health sleep and recovery" width="1260" height="2566" loading="lazy" decoding="async">
+              </div>
+              <figcaption>Today</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="shot">
+              <div class="device">
+                <img src="../../screenshots/baseline/05-debt.png" alt="Sleep debt chart in Baseline for the last seven nights against a nightly sleep need" width="1260" height="2573" loading="lazy" decoding="async">
+              </div>
+              <figcaption>Sleep Debt</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="shot">
+              <div class="device">
+                <img src="../../screenshots/baseline/02-sleep.png" alt="Baseline sleep tab with stages, tonight plan, and sleep timing from Apple Health" width="1260" height="2546" loading="lazy" decoding="async">
+              </div>
+              <figcaption>Sleep</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="shot">
+              <div class="device">
+                <img src="../../screenshots/baseline/03-heart.png" alt="Baseline heart screen with HRV, resting heart rate, and readiness" width="1260" height="2546" loading="lazy" decoding="async">
+              </div>
+              <figcaption>Heart</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="shot">
+              <div class="device">
+                <img src="../../screenshots/baseline/04-trends.png" alt="Baseline trends for sleep debt, heart rate, and recovery over time" width="1260" height="2532" loading="lazy" decoding="async">
+              </div>
+              <figcaption>Trends</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="shot">
+              <div class="device">
+                <img src="../../screenshots/baseline/06-mood.png" alt="Baseline mood check-in with an Apple Intelligence note on mood and deep sleep" width="1260" height="2563" loading="lazy" decoding="async">
+              </div>
+              <figcaption>Mood</figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="block" id="questions">
+      <div class="wrap">
+        <div class="prose reveal">
+          <h2>Sleep debt app questions</h2>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>What does a sleep debt number mean here?</summary>
+            <p>It is the recent shortfall against the hours you set as your need, shown from Apple Health sleep. It is a wellness figure for the last week, not a medical debt and not a diagnosis.</p>
+          </details>
+          <details>
+            <summary>Does Apple Intelligence change my sleep or heart numbers?</summary>
+            <p>No. Apple Intelligence rewrites the explanation. Sleep debt, heart rate, HRV, readiness, and the chosen action stay as calculated. If the model is off, you still see the plain result.</p>
+          </details>
+          <details>
+            <summary>Which iPhones get the AI analysis?</summary>
+            <p>The Apple Intelligence writing appears when Apple Intelligence is available and turned on for that iPhone. Other iPhones still get the sleep debt tracker, heart screens, mood, and today’s action in plain text.</p>
+          </details>
+          <details>
+            <summary>Is my Apple Health data uploaded for the AI?</summary>
+            <p>The summaries are generated on device and are not stored on our server. Account data is separate: email if Apple provides it, your sleep schedule, and mood check-ins. Details are in the <a href="privacy/">Baseline privacy policy</a>.</p>
+          </details>
+        </div>
+        <p class="support">Support for Baseline - Sleep Debt. Write to <a href="mailto:hello@soneraltin.com">hello@soneraltin.com</a> with your Apple ID email if the question is about an account or a purchase.</p>
+      </div>
+    </section>
   </main>
-  <footer class="site">
-    <div class="wrap wide"><a href="../">Apps</a> · <a href="privacy/">Privacy policy</a> · <a href="../../">Soner Altın</a></div>
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <p>Soner Altın</p>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="../">Apps</a>
+        <a href="privacy/">Privacy policy</a>
+        <a href="../../">Soner Altın</a>
+        <a href="mailto:hello@soneraltin.com">hello@soneraltin.com</a>
+      </nav>
+    </div>
   </footer>
+  <script src="../../assets/site.js"></script>
 </body>
 </html>
