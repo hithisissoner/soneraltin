@@ -1,0 +1,11 @@
+{
+  "name": "soneraltin",
+  "compatibility_date": "2026-11-18",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "."
+  },
+  "previews": {}
+}
