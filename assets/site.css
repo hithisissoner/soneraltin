@@ -418,6 +418,12 @@ h1, h2, h3 { font-weight: 600; letter-spacing: -0.04em; line-height: 1.05; }
 
 .gallery .device { width: min(13.5rem, 68vw); }
 
+.gallery .island img {
+  width: min(20rem, 86vw);
+  border-radius: 999px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+}
+
 .gallery:focus-visible { outline-offset: 6px; }
 
 .faq { margin-top: 1.5rem; max-width: 44rem; }
