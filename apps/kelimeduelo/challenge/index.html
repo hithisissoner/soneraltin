@@ -4,13 +4,21 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Meydan oku · Kelime Düello</title>
-  <meta name="description" content="Kelime Düello’da seni bekleyen bir meydan okuma var.">
+  <meta name="description" content="Kelime Düello’da seni bekleyen bir meydan okuma var. Aynı kelimeyi bul, geç.">
   <meta name="theme-color" content="#0C0C11">
   <link rel="canonical" href="https://soneraltin.com/apps/kelimeduelo/challenge">
+  <meta property="og:site_name" content="Kelime Düello">
   <meta property="og:title" content="Kelime Düello’da beni geç">
   <meta property="og:description" content="Türkçe kelime düellosu. Aynı uzunlukta kelimeyi bul, seriyi boz.">
   <meta property="og:url" content="https://soneraltin.com/apps/kelimeduelo/challenge">
   <meta property="og:type" content="website">
+  <meta property="og:image" content="https://soneraltin.com/screenshots/kelimeduelo/og-share.png">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Kelime Düello’da beni geç">
+  <meta name="twitter:description" content="Türkçe kelime düellosu. Aynı kelimeyi bul, geç.">
+  <meta name="twitter:image" content="https://soneraltin.com/screenshots/kelimeduelo/og-share.png">
   <style>
     :root { color-scheme: dark; }
     body {
@@ -18,8 +26,16 @@
       font-family: ui-rounded, system-ui, -apple-system, sans-serif;
       background: #0C0C11; color: #F4F1F8; padding: 24px; text-align: center;
     }
-    h1 { font-size: 1.6rem; margin: 0 0 8px; }
-    p { color: #A89EB8; margin: 0 0 20px; line-height: 1.45; max-width: 28rem; }
+    .card {
+      max-width: 22rem; padding: 28px 22px; border-radius: 24px;
+      background: #17141F; border: 1px solid #2A2436;
+    }
+    .icon {
+      width: 72px; height: 72px; border-radius: 18px; object-fit: cover;
+      margin: 0 auto 16px; display: block;
+    }
+    h1 { font-size: 1.55rem; margin: 0 0 8px; }
+    p { color: #A89EB8; margin: 0 0 20px; line-height: 1.45; }
     a.btn {
       display: inline-block; padding: 14px 22px; border-radius: 999px;
       background: #7DDEBA; color: #16121C; font-weight: 700; text-decoration: none;
@@ -28,7 +44,8 @@
   </style>
 </head>
 <body>
-  <main>
+  <main class="card">
+    <img class="icon" src="/screenshots/kelimeduelo/og-share.png" alt="Kelime Düello" width="72" height="72">
     <h1>Kelime Düello</h1>
     <p id="copy">Bir arkadaşın seni meydan okumaya çağırdı. Uygulamayı açıp aynı oyunu oyna.</p>
     <a class="btn" id="open" href="kelimeduelo://challenge">Uygulamayı aç</a>
@@ -44,10 +61,10 @@
     const format = q.get("format");
     const parts = [];
     if (challengeId) {
-      parts.push("aynı kelime challenge");
+      parts.push("aynı kelime meydanı");
     } else {
       if (u) parts.push("@" + u);
-      if (mode === "daily") parts.push("günlük challenge");
+      if (mode === "daily") parts.push("günün yarışı");
       else if (mode === "duel") parts.push("düello");
       else if (mode === "bot") parts.push("antrenman");
       else parts.push("solo");
@@ -56,17 +73,19 @@
       if (day) parts.push(day);
     }
     if (parts.length) {
+      const line = parts.join(" · ");
       document.getElementById("copy").textContent =
-        parts.join(" · ") + ". Kelime Düello’da seni geçmeye çalış.";
-      document.getElementById("hint").textContent = parts.join(" · ");
+        line + ". Kelime Düello’da seni geçmeye çalış.";
+      document.getElementById("hint").textContent = line;
+      document.title = line + " · Kelime Düello";
     }
     const qs = q.toString();
     const deep = "kelimeduelo://challenge" + (qs ? ("?" + qs) : "");
     document.getElementById("open").href = deep;
-    // iOS’ta uygulama yüklüyse deep link’e dene; yoksa sayfada kal.
+    // Universal Link yüklü uygulamada Safari’siz açar; yedek deep link.
     setTimeout(function () {
       try { location.href = deep; } catch (_) {}
-    }, 80);
+    }, 120);
   </script>
 </body>
 </html>

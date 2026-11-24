@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "46N7DZAFQV.com.soneraltin.KelimeDuello",
+        "paths": [
+          "/apps/kelimeduelo/challenge",
+          "/apps/kelimeduelo/challenge*"
+        ]
+      }
+    ]
+  }
+}
