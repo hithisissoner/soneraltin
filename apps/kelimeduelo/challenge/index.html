@@ -36,20 +36,25 @@
   </main>
   <script>
     const q = new URLSearchParams(location.search);
+    const challengeId = q.get("c");
     const mode = q.get("mode") || "solo";
     const len = q.get("len");
     const u = q.get("u");
     const day = q.get("day");
     const format = q.get("format");
     const parts = [];
-    if (u) parts.push("@" + u);
-    if (mode === "daily") parts.push("günlük challenge");
-    else if (mode === "duel") parts.push("düello");
-    else if (mode === "bot") parts.push("antrenman");
-    else parts.push("solo");
-    if (len) parts.push(len + " harf");
-    if (format) parts.push(format);
-    if (day) parts.push(day);
+    if (challengeId) {
+      parts.push("aynı kelime challenge");
+    } else {
+      if (u) parts.push("@" + u);
+      if (mode === "daily") parts.push("günlük challenge");
+      else if (mode === "duel") parts.push("düello");
+      else if (mode === "bot") parts.push("antrenman");
+      else parts.push("solo");
+      if (len) parts.push(len + " harf");
+      if (format) parts.push(format);
+      if (day) parts.push(day);
+    }
     if (parts.length) {
       document.getElementById("copy").textContent =
         parts.join(" · ") + ". Kelime Düello’da seni geçmeye çalış.";
