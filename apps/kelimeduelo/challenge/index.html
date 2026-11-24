@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meydan oku · Kelime Düello</title>
+  <meta name="description" content="Kelime Düello’da seni bekleyen bir meydan okuma var.">
+  <meta name="theme-color" content="#0C0C11">
+  <link rel="canonical" href="https://soneraltin.com/apps/kelimeduelo/challenge">
+  <meta property="og:title" content="Kelime Düello’da beni geç">
+  <meta property="og:description" content="Türkçe kelime düellosu. Aynı uzunlukta kelimeyi bul, seriyi boz.">
+  <meta property="og:url" content="https://soneraltin.com/apps/kelimeduelo/challenge">
+  <meta property="og:type" content="website">
+  <style>
+    :root { color-scheme: dark; }
+    body {
+      margin: 0; min-height: 100dvh; display: grid; place-items: center;
+      font-family: ui-rounded, system-ui, -apple-system, sans-serif;
+      background: #0C0C11; color: #F4F1F8; padding: 24px; text-align: center;
+    }
+    h1 { font-size: 1.6rem; margin: 0 0 8px; }
+    p { color: #A89EB8; margin: 0 0 20px; line-height: 1.45; max-width: 28rem; }
+    a.btn {
+      display: inline-block; padding: 14px 22px; border-radius: 999px;
+      background: #7DDEBA; color: #16121C; font-weight: 700; text-decoration: none;
+    }
+    .meta { margin-top: 18px; font-size: 0.85rem; color: #7A718C; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Kelime Düello</h1>
+    <p id="copy">Bir arkadaşın seni meydan okumaya çağırdı. Uygulamayı açıp aynı oyunu oyna.</p>
+    <a class="btn" id="open" href="kelimeduelo://challenge">Uygulamayı aç</a>
+    <p class="meta" id="hint"></p>
+  </main>
+  <script>
+    const q = new URLSearchParams(location.search);
+    const mode = q.get("mode") || "solo";
+    const len = q.get("len");
+    const u = q.get("u");
+    const day = q.get("day");
+    const format = q.get("format");
+    const parts = [];
+    if (u) parts.push("@" + u);
+    if (mode === "daily") parts.push("günlük challenge");
+    else if (mode === "duel") parts.push("düello");
+    else if (mode === "bot") parts.push("antrenman");
+    else parts.push("solo");
+    if (len) parts.push(len + " harf");
+    if (format) parts.push(format);
+    if (day) parts.push(day);
+    if (parts.length) {
+      document.getElementById("copy").textContent =
+        parts.join(" · ") + ". Kelime Düello’da seni geçmeye çalış.";
+      document.getElementById("hint").textContent = parts.join(" · ");
+    }
+    const deep = new URL("kelimeduelo://challenge");
+    q.forEach((v, k) => deep.searchParams.set(k, v));
+    document.getElementById("open").href = deep.toString();
+    // iOS’ta uygulama yüklüyse deep link’e dene; yoksa sayfada kal.
+    const t = setTimeout(() => {}, 1200);
+    try { location.href = deep.toString(); } catch (_) {}
+    clearTimeout(t);
+  </script>
+</body>
+</html>
