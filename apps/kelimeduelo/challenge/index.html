@@ -60,13 +60,13 @@
         parts.join(" · ") + ". Kelime Düello’da seni geçmeye çalış.";
       document.getElementById("hint").textContent = parts.join(" · ");
     }
-    const deep = new URL("kelimeduelo://challenge");
-    q.forEach((v, k) => deep.searchParams.set(k, v));
-    document.getElementById("open").href = deep.toString();
+    const qs = q.toString();
+    const deep = "kelimeduelo://challenge" + (qs ? ("?" + qs) : "");
+    document.getElementById("open").href = deep;
     // iOS’ta uygulama yüklüyse deep link’e dene; yoksa sayfada kal.
-    const t = setTimeout(() => {}, 1200);
-    try { location.href = deep.toString(); } catch (_) {}
-    clearTimeout(t);
+    setTimeout(function () {
+      try { location.href = deep; } catch (_) {}
+    }, 80);
   </script>
 </body>
 </html>
