@@ -15,9 +15,19 @@ The site is in English. Baseline - Sleep Debt reads Apple Health on iPhone and i
 
 - [Apps](https://soneraltin.com/apps/): The two iPhone apps, Baseline - Sleep Debt and Easytv Play, with a short description of each.
 - [Baseline - Sleep Debt](https://soneraltin.com/apps/baseline/): iPhone sleep debt app that reads Apple Health and explains the numbers on device with Apple Intelligence. Not a medical device.
-- [Easytv Play](https://soneraltin.com/apps/easytv/): iPhone media player for the user’s own M3U or Xtream playlist. It does not provide channels, subscriptions, or content, and it has no third-party tracking.
+- [Easytv Play](https://soneraltin.com/apps/easytv/): iPhone IPTV player for the user’s own M3U or Xtream playlists. It does not provide channels, subscriptions, or content, and it has no third-party tracking.
+- [Easytv Play (Español)](https://soneraltin.com/apps/easytv/es/): The same player page in Spanish.
+- [Easytv Play (العربية)](https://soneraltin.com/apps/easytv/ar/): The same player page in Arabic.
+- [Easytv Play (Deutsch)](https://soneraltin.com/apps/easytv/de/): The same player page in German.
+- [Easytv Play (Français)](https://soneraltin.com/apps/easytv/fr/): The same player page in French.
+- [Easytv Play (简体中文)](https://soneraltin.com/apps/easytv/zh-hans/): The same player page in Simplified Chinese.
+- [Easytv Play (日本語)](https://soneraltin.com/apps/easytv/ja/): The same player page in Japanese.
+- [Easytv Play (Italiano)](https://soneraltin.com/apps/easytv/it/): The same player page in Italian.
+- [Easytv Play (한국어)](https://soneraltin.com/apps/easytv/ko/): The same player page in Korean.
+- [Easytv Play (Nederlands)](https://soneraltin.com/apps/easytv/nl/): The same player page in Dutch.
+- [Easytv Play (Türkçe)](https://soneraltin.com/apps/easytv/tr/): The same player page in Turkish.
 
 ## Privacy
 
 - [Baseline privacy policy](https://soneraltin.com/apps/baseline/privacy/): How Baseline handles Apple Health, on-device Apple Intelligence summaries, and the account.
-- [Easytv Play privacy policy](https://soneraltin.com/apps/easytv/privacy/): How Easytv Play handles an optional account, playlist login, favorites, and watch history. The app hosts no content.
+- [Easytv Play privacy policy](https://soneraltin.com/apps/easytv/privacy/): How Easytv Play handles an optional account, playlist login, favorites, and watch history. The app hosts no content. Translations: [es](https://soneraltin.com/apps/easytv/es/privacy/), [ar](https://soneraltin.com/apps/easytv/ar/privacy/), [de](https://soneraltin.com/apps/easytv/de/privacy/), [fr](https://soneraltin.com/apps/easytv/fr/privacy/), [zh-Hans](https://soneraltin.com/apps/easytv/zh-hans/privacy/), [ja](https://soneraltin.com/apps/easytv/ja/privacy/), [it](https://soneraltin.com/apps/easytv/it/privacy/), [ko](https://soneraltin.com/apps/easytv/ko/privacy/), [nl](https://soneraltin.com/apps/easytv/nl/privacy/), [tr](https://soneraltin.com/apps/easytv/tr/privacy/).

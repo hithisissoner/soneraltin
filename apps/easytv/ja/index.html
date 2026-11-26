@@ -14,10 +14,11 @@
   <link rel="apple-touch-icon" href="/assets/favicon.jpg">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Easytv Play M3Uプレーヤー</title>
-  <meta name="description" content="あなた自身のM3UまたはXtream Codesプレイリスト向けの、広告なしプレーヤー。ライブ配信、映画、ドラマをひとつに。 Easytv Playはチャンネル、配信契約、コンテンツを提供しません。利用権限のあるソースだけを追加してください。">
+  <meta name="description" content="自分のM3UまたはXtreamプレイリスト向けの、広告なしIPTVプレーヤー。ライブ配信、映画、ドラマをひとつに。 Easytv Playはチャンネル、配信契約、コンテンツを提供しません。利用権限のあるソースだけを追加してください。">
   <meta name="robots" content="index,follow">
   <meta name="theme-color" content="#0a0a0c">
   <link rel="canonical" href="https://soneraltin.com/apps/easytv/ja/">
+  <link rel="alternate" type="text/plain" href="/llms.txt" title="LLMs.txt">
   <link rel="alternate" hreflang="en" href="https://soneraltin.com/apps/easytv/">
   <link rel="alternate" hreflang="es" href="https://soneraltin.com/apps/easytv/es/">
   <link rel="alternate" hreflang="ar" href="https://soneraltin.com/apps/easytv/ar/">
@@ -34,12 +35,17 @@
   <meta property="og:site_name" content="Soner Altın">
   <meta property="og:locale" content="ja_JP">
   <meta property="og:title" content="Easytv Play M3Uプレーヤー">
-  <meta property="og:description" content="あなた自身のM3UまたはXtream Codesプレイリスト向けの、広告なしプレーヤー。ライブ配信、映画、ドラマをひとつに。 Easytv Playはチャンネル、配信契約、コンテンツを提供しません。利用権限のあるソースだけを追加してください。">
+  <meta property="og:description" content="自分のM3UまたはXtreamプレイリスト向けの、広告なしIPTVプレーヤー。ライブ配信、映画、ドラマをひとつに。 Easytv Playはチャンネル、配信契約、コンテンツを提供しません。利用権限のあるソースだけを追加してください。">
   <meta property="og:url" content="https://soneraltin.com/apps/easytv/ja/">
-  <meta property="og:image" content="https://soneraltin.com/screenshots/easytv/02-live.png">
+  <meta property="og:image" content="https://soneraltin.com/assets/og-easytv.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Easytv Play, an iPhone media player for your own M3U or Xtream playlist. No channels or content included.">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Easytv Play M3Uプレーヤー">
-  <meta name="twitter:description" content="あなた自身のM3UまたはXtream Codesプレイリスト向けの、広告なしプレーヤー。ライブ配信、映画、ドラマをひとつに。 Easytv Playはチャンネル、配信契約、コンテンツを提供しません。利用権限のあるソースだけを追加してください。">
+  <meta name="twitter:description" content="自分のM3UまたはXtreamプレイリスト向けの、広告なしIPTVプレーヤー。ライブ配信、映画、ドラマをひとつに。 Easytv Playはチャンネル、配信契約、コンテンツを提供しません。利用権限のあるソースだけを追加してください。">
+  <meta name="twitter:image" content="https://soneraltin.com/assets/og-easytv.png">
+  <meta name="twitter:image:alt" content="Easytv Play, an iPhone media player for your own M3U or Xtream playlist. No channels or content included.">
   <link rel="stylesheet" href="../../../assets/site.css">
   <link rel="preload" as="image" href="../../../screenshots/easytv/02-live.png">
   <script>document.documentElement.classList.add("js")</script>
@@ -48,14 +54,14 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "SoftwareApplication",
+      "@type": ["SoftwareApplication", "MobileApplication"],
       "name": "Easytv Play",
       "operatingSystem": "iOS",
       "applicationCategory": "MultimediaApplication",
       "url": "https://soneraltin.com/apps/easytv/ja/",
       "installUrl": "https://apps.apple.com/us/app/easytv-play/id6836929563?itscg=30200&itsct=apps_box_badge&mttnsubad=6836929563",
       "downloadUrl": "https://apps.apple.com/us/app/easytv-play/id6836929563?itscg=30200&itsct=apps_box_badge&mttnsubad=6836929563",
-      "description": "あなた自身のM3UまたはXtream Codesプレイリスト向けの、広告なしプレーヤー。ライブ配信、映画、ドラマをひとつに。 Easytv Playはメディアプレーヤーです。チャンネル、配信契約、コンテンツは提供しません。視聴する権限のあるソースだけを追加してください。番組表、字幕、画質はプロバイダに依存します。",
+      "description": "自分のM3UまたはXtreamプレイリスト向けの、広告なしIPTVプレーヤー。ライブ配信、映画、ドラマをひとつに。 Easytv Playはメディアプレーヤーです。チャンネル、配信契約、コンテンツは提供しません。視聴する権限のあるソースだけを追加してください。番組表、字幕、画質はプロバイダに依存します。",
       "featureList": [
         "Xtream CodesのログインまたはM3U / M3U8リンクを追加",
         "ライブ配信、映画、ドラマをそれぞれのセクションで",
@@ -70,6 +76,7 @@
       "inLanguage": "ja",
       "author": {
         "@type": "Person",
+        "@id": "https://soneraltin.com/#person",
         "name": "Soner Altın",
         "url": "https://soneraltin.com/"
       }
@@ -100,6 +107,30 @@
     {
       "@type": "FAQPage",
       "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Easytv Playとは何ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Easytv Playは、自分のM3UまたはXtreamプレイリスト向けのIPTVプレーヤーです。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Easytv Playは何をしますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "そのプレイリストのライブ配信、映画、ドラマを再生し、お気に入り、ダウンロード、続きから再生ができます。広告なし。サードパーティーによるトラッキングなし。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Easytv Playは何をしませんか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "チャンネル、配信契約、コンテンツは提供しません。視聴する権限のあるソースだけを追加してください。番組表、字幕、画質はプロバイダに依存します。"
+          }
+        },
         {
           "@type": "Question",
           "name": "Easytv Play にテレビチャンネルは含まれますか？",
@@ -428,6 +459,18 @@
           <h2>質問</h2>
         </div>
         <div class="faq">
+          <details open>
+            <summary>Easytv Playとは何ですか？</summary>
+            <p>Easytv Playは、自分のM3UまたはXtreamプレイリスト向けのIPTVプレーヤーです。</p>
+          </details>
+          <details open>
+            <summary>Easytv Playは何をしますか？</summary>
+            <p>そのプレイリストのライブ配信、映画、ドラマを再生し、お気に入り、ダウンロード、続きから再生ができます。広告なし。サードパーティーによるトラッキングなし。</p>
+          </details>
+          <details open>
+            <summary>Easytv Playは何をしませんか？</summary>
+            <p>チャンネル、配信契約、コンテンツは提供しません。視聴する権限のあるソースだけを追加してください。番組表、字幕、画質はプロバイダに依存します。</p>
+          </details>
           <details>
             <summary>Easytv Play にテレビチャンネルは含まれますか？</summary>
             <p>Easytv Playはメディアプレーヤーです。チャンネル、配信契約、コンテンツは提供しません。視聴する権限のあるソースだけを追加してください。番組表、字幕、画質はプロバイダに依存します。</p>

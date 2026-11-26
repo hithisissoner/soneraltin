@@ -14,10 +14,11 @@
   <link rel="apple-touch-icon" href="/assets/favicon.jpg">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Easytv Play: Lettore M3U</title>
-  <meta name="description" content="Un lettore senza pubblicità per la tua lista M3U o Xtream Codes: TV in diretta, film e serie in un unico posto. Easytv Play non fornisce canali, abbonamenti o contenuti. Aggiungi solo una fonte che sei autorizzato a usare.">
+  <meta name="description" content="Un lettore IPTV senza pubblicità per le tue playlist M3U o Xtream: TV in diretta, film e serie in un unico posto. Easytv Play non fornisce canali, abbonamenti o contenuti. Aggiungi solo una fonte che sei autorizzato a usare.">
   <meta name="robots" content="index,follow">
   <meta name="theme-color" content="#0a0a0c">
   <link rel="canonical" href="https://soneraltin.com/apps/easytv/it/">
+  <link rel="alternate" type="text/plain" href="/llms.txt" title="LLMs.txt">
   <link rel="alternate" hreflang="en" href="https://soneraltin.com/apps/easytv/">
   <link rel="alternate" hreflang="es" href="https://soneraltin.com/apps/easytv/es/">
   <link rel="alternate" hreflang="ar" href="https://soneraltin.com/apps/easytv/ar/">
@@ -34,12 +35,17 @@
   <meta property="og:site_name" content="Soner Altın">
   <meta property="og:locale" content="it_IT">
   <meta property="og:title" content="Easytv Play: Lettore M3U">
-  <meta property="og:description" content="Un lettore senza pubblicità per la tua lista M3U o Xtream Codes: TV in diretta, film e serie in un unico posto. Easytv Play non fornisce canali, abbonamenti o contenuti. Aggiungi solo una fonte che sei autorizzato a usare.">
+  <meta property="og:description" content="Un lettore IPTV senza pubblicità per le tue playlist M3U o Xtream: TV in diretta, film e serie in un unico posto. Easytv Play non fornisce canali, abbonamenti o contenuti. Aggiungi solo una fonte che sei autorizzato a usare.">
   <meta property="og:url" content="https://soneraltin.com/apps/easytv/it/">
-  <meta property="og:image" content="https://soneraltin.com/screenshots/easytv/02-live.png">
+  <meta property="og:image" content="https://soneraltin.com/assets/og-easytv.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Easytv Play, an iPhone media player for your own M3U or Xtream playlist. No channels or content included.">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Easytv Play: Lettore M3U">
-  <meta name="twitter:description" content="Un lettore senza pubblicità per la tua lista M3U o Xtream Codes: TV in diretta, film e serie in un unico posto. Easytv Play non fornisce canali, abbonamenti o contenuti. Aggiungi solo una fonte che sei autorizzato a usare.">
+  <meta name="twitter:description" content="Un lettore IPTV senza pubblicità per le tue playlist M3U o Xtream: TV in diretta, film e serie in un unico posto. Easytv Play non fornisce canali, abbonamenti o contenuti. Aggiungi solo una fonte che sei autorizzato a usare.">
+  <meta name="twitter:image" content="https://soneraltin.com/assets/og-easytv.png">
+  <meta name="twitter:image:alt" content="Easytv Play, an iPhone media player for your own M3U or Xtream playlist. No channels or content included.">
   <link rel="stylesheet" href="../../../assets/site.css">
   <link rel="preload" as="image" href="../../../screenshots/easytv/02-live.png">
   <script>document.documentElement.classList.add("js")</script>
@@ -48,14 +54,14 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "SoftwareApplication",
+      "@type": ["SoftwareApplication", "MobileApplication"],
       "name": "Easytv Play",
       "operatingSystem": "iOS",
       "applicationCategory": "MultimediaApplication",
       "url": "https://soneraltin.com/apps/easytv/it/",
       "installUrl": "https://apps.apple.com/us/app/easytv-play/id6836929563?itscg=30200&itsct=apps_box_badge&mttnsubad=6836929563",
       "downloadUrl": "https://apps.apple.com/us/app/easytv-play/id6836929563?itscg=30200&itsct=apps_box_badge&mttnsubad=6836929563",
-      "description": "Un lettore senza pubblicità per la tua lista M3U o Xtream Codes: TV in diretta, film e serie in un unico posto. Easytv Play è un lettore media. Non fornisce canali, abbonamenti o contenuti. Aggiungi solo una fonte che sei autorizzato a guardare. EPG, sottotitoli e qualità del flusso dipendono dal tuo provider.",
+      "description": "Un lettore IPTV senza pubblicità per le tue playlist M3U o Xtream: TV in diretta, film e serie in un unico posto. Easytv Play è un lettore media. Non fornisce canali, abbonamenti o contenuti. Aggiungi solo una fonte che sei autorizzato a guardare. EPG, sottotitoli e qualità del flusso dipendono dal tuo provider.",
       "featureList": [
         "Aggiungi un accesso Xtream Codes o un link M3U / M3U8",
         "TV in diretta, film e serie nelle rispettive sezioni",
@@ -70,6 +76,7 @@
       "inLanguage": "it",
       "author": {
         "@type": "Person",
+        "@id": "https://soneraltin.com/#person",
         "name": "Soner Altın",
         "url": "https://soneraltin.com/"
       }
@@ -100,6 +107,30 @@
     {
       "@type": "FAQPage",
       "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Che cos'è Easytv Play?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Easytv Play è un lettore IPTV per le tue playlist M3U o Xtream."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Che cosa fa Easytv Play?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Riproduce TV in diretta, film e serie da quella lista, con preferiti, download e ripresa. Niente pubblicità. Niente tracciamento di terze parti."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Che cosa non fa Easytv Play?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non fornisce canali, abbonamenti o contenuti. Aggiungi solo una fonte che sei autorizzato a guardare. EPG, sottotitoli e qualità del flusso dipendono dal tuo provider."
+          }
+        },
         {
           "@type": "Question",
           "name": "Easytv Play include canali TV?",
@@ -428,6 +459,18 @@
           <h2>Domande</h2>
         </div>
         <div class="faq">
+          <details open>
+            <summary>Che cos'è Easytv Play?</summary>
+            <p>Easytv Play è un lettore IPTV per le tue playlist M3U o Xtream.</p>
+          </details>
+          <details open>
+            <summary>Che cosa fa Easytv Play?</summary>
+            <p>Riproduce TV in diretta, film e serie da quella lista, con preferiti, download e ripresa. Niente pubblicità. Niente tracciamento di terze parti.</p>
+          </details>
+          <details open>
+            <summary>Che cosa non fa Easytv Play?</summary>
+            <p>Non fornisce canali, abbonamenti o contenuti. Aggiungi solo una fonte che sei autorizzato a guardare. EPG, sottotitoli e qualità del flusso dipendono dal tuo provider.</p>
+          </details>
           <details>
             <summary>Easytv Play include canali TV?</summary>
             <p>Easytv Play è un lettore media. Non fornisce canali, abbonamenti o contenuti. Aggiungi solo una fonte che sei autorizzato a guardare. EPG, sottotitoli e qualità del flusso dipendono dal tuo provider.</p>

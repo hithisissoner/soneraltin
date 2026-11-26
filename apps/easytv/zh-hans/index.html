@@ -14,10 +14,11 @@
   <link rel="apple-touch-icon" href="/assets/favicon.jpg">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Easytv Play M3U播放器</title>
-  <meta name="description" content="用于你自己的 M3U 或 Xtream Codes 播放列表的无广告播放器，直播电视、电影和剧集集于一处。 Easytv Play 不提供频道、订阅或内容。请仅添加你有权使用的来源。">
+  <meta name="description" content="用于你自己的 M3U 或 Xtream 播放列表的无广告 IPTV 播放器，直播电视、电影和剧集集于一处。 Easytv Play 不提供频道、订阅或内容。请仅添加你有权使用的来源。">
   <meta name="robots" content="index,follow">
   <meta name="theme-color" content="#0a0a0c">
   <link rel="canonical" href="https://soneraltin.com/apps/easytv/zh-hans/">
+  <link rel="alternate" type="text/plain" href="/llms.txt" title="LLMs.txt">
   <link rel="alternate" hreflang="en" href="https://soneraltin.com/apps/easytv/">
   <link rel="alternate" hreflang="es" href="https://soneraltin.com/apps/easytv/es/">
   <link rel="alternate" hreflang="ar" href="https://soneraltin.com/apps/easytv/ar/">
@@ -34,12 +35,17 @@
   <meta property="og:site_name" content="Soner Altın">
   <meta property="og:locale" content="zh_CN">
   <meta property="og:title" content="Easytv Play M3U播放器">
-  <meta property="og:description" content="用于你自己的 M3U 或 Xtream Codes 播放列表的无广告播放器，直播电视、电影和剧集集于一处。 Easytv Play 不提供频道、订阅或内容。请仅添加你有权使用的来源。">
+  <meta property="og:description" content="用于你自己的 M3U 或 Xtream 播放列表的无广告 IPTV 播放器，直播电视、电影和剧集集于一处。 Easytv Play 不提供频道、订阅或内容。请仅添加你有权使用的来源。">
   <meta property="og:url" content="https://soneraltin.com/apps/easytv/zh-hans/">
-  <meta property="og:image" content="https://soneraltin.com/screenshots/easytv/02-live.png">
+  <meta property="og:image" content="https://soneraltin.com/assets/og-easytv.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Easytv Play, an iPhone media player for your own M3U or Xtream playlist. No channels or content included.">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Easytv Play M3U播放器">
-  <meta name="twitter:description" content="用于你自己的 M3U 或 Xtream Codes 播放列表的无广告播放器，直播电视、电影和剧集集于一处。 Easytv Play 不提供频道、订阅或内容。请仅添加你有权使用的来源。">
+  <meta name="twitter:description" content="用于你自己的 M3U 或 Xtream 播放列表的无广告 IPTV 播放器，直播电视、电影和剧集集于一处。 Easytv Play 不提供频道、订阅或内容。请仅添加你有权使用的来源。">
+  <meta name="twitter:image" content="https://soneraltin.com/assets/og-easytv.png">
+  <meta name="twitter:image:alt" content="Easytv Play, an iPhone media player for your own M3U or Xtream playlist. No channels or content included.">
   <link rel="stylesheet" href="../../../assets/site.css">
   <link rel="preload" as="image" href="../../../screenshots/easytv/02-live.png">
   <script>document.documentElement.classList.add("js")</script>
@@ -48,14 +54,14 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "SoftwareApplication",
+      "@type": ["SoftwareApplication", "MobileApplication"],
       "name": "Easytv Play",
       "operatingSystem": "iOS",
       "applicationCategory": "MultimediaApplication",
       "url": "https://soneraltin.com/apps/easytv/zh-hans/",
       "installUrl": "https://apps.apple.com/us/app/easytv-play/id6836929563?itscg=30200&itsct=apps_box_badge&mttnsubad=6836929563",
       "downloadUrl": "https://apps.apple.com/us/app/easytv-play/id6836929563?itscg=30200&itsct=apps_box_badge&mttnsubad=6836929563",
-      "description": "用于你自己的 M3U 或 Xtream Codes 播放列表的无广告播放器，直播电视、电影和剧集集于一处。 Easytv Play 是一款媒体播放器。它不提供频道、订阅或内容。请仅添加你有权观看的来源。节目表、字幕和画面质量取决于你的提供方。",
+      "description": "用于你自己的 M3U 或 Xtream 播放列表的无广告 IPTV 播放器，直播电视、电影和剧集集于一处。 Easytv Play 是一款媒体播放器。它不提供频道、订阅或内容。请仅添加你有权观看的来源。节目表、字幕和画面质量取决于你的提供方。",
       "featureList": [
         "添加 Xtream Codes 登录信息或 M3U / M3U8 链接",
         "直播电视、电影和剧集分栏显示",
@@ -70,6 +76,7 @@
       "inLanguage": "zh-Hans",
       "author": {
         "@type": "Person",
+        "@id": "https://soneraltin.com/#person",
         "name": "Soner Altın",
         "url": "https://soneraltin.com/"
       }
@@ -100,6 +107,30 @@
     {
       "@type": "FAQPage",
       "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Easytv Play 是什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Easytv Play 是用于你自己的 M3U 或 Xtream 播放列表的 IPTV 播放器。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Easytv Play 做什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "它播放该播放列表中的直播电视、电影和剧集，并提供收藏、下载和续播。无广告。无第三方追踪。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Easytv Play 不做什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "它不提供频道、订阅或内容。请仅添加你有权观看的来源。节目表、字幕和画面质量取决于你的提供方。"
+          }
+        },
         {
           "@type": "Question",
           "name": "Easytv Play 是否包含电视频道？",
@@ -427,6 +458,18 @@
           <h2>问题</h2>
         </div>
         <div class="faq">
+          <details open>
+            <summary>Easytv Play 是什么？</summary>
+            <p>Easytv Play 是用于你自己的 M3U 或 Xtream 播放列表的 IPTV 播放器。</p>
+          </details>
+          <details open>
+            <summary>Easytv Play 做什么？</summary>
+            <p>它播放该播放列表中的直播电视、电影和剧集，并提供收藏、下载和续播。无广告。无第三方追踪。</p>
+          </details>
+          <details open>
+            <summary>Easytv Play 不做什么？</summary>
+            <p>它不提供频道、订阅或内容。请仅添加你有权观看的来源。节目表、字幕和画面质量取决于你的提供方。</p>
+          </details>
           <details>
             <summary>Easytv Play 是否包含电视频道？</summary>
             <p>Easytv Play 是一款媒体播放器。它不提供频道、订阅或内容。请仅添加你有权观看的来源。节目表、字幕和画面质量取决于你的提供方。</p>
