@@ -1,21 +1,376 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://soneraltin.com/</loc>
-  </url>
-  <url>
-    <loc>https://soneraltin.com/apps/</loc>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://soneraltin.com/apps/baseline/</loc>
+    <lastmod>2026-11-22</lastmod>
   </url>
   <url>
     <loc>https://soneraltin.com/apps/baseline/privacy/</loc>
+    <lastmod>2026-11-22</lastmod>
+  </url>
+  <url>
+    <loc>https://soneraltin.com/apps/easytv/ar/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soneraltin.com/apps/easytv/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soneraltin.com/apps/easytv/es/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://soneraltin.com/apps/easytv/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://soneraltin.com/apps/easytv/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soneraltin.com/apps/easytv/fr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://soneraltin.com/apps/easytv/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://soneraltin.com/apps/easytv/ja/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://soneraltin.com/apps/easytv/it/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://soneraltin.com/apps/easytv/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://soneraltin.com/apps/easytv/nl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://soneraltin.com/apps/easytv/tr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soneraltin.com/apps/easytv/"/>
+  </url>
+  <url>
+    <loc>https://soneraltin.com/apps/easytv/ar/privacy/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soneraltin.com/apps/easytv/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soneraltin.com/apps/easytv/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://soneraltin.com/apps/easytv/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://soneraltin.com/apps/easytv/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soneraltin.com/apps/easytv/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://soneraltin.com/apps/easytv/zh-hans/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://soneraltin.com/apps/easytv/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://soneraltin.com/apps/easytv/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://soneraltin.com/apps/easytv/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://soneraltin.com/apps/easytv/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://soneraltin.com/apps/easytv/tr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soneraltin.com/apps/easytv/privacy/"/>
+  </url>
+  <url>
+    <loc>https://soneraltin.com/apps/easytv/de/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soneraltin.com/apps/easytv/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soneraltin.com/apps/easytv/es/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://soneraltin.com/apps/easytv/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://soneraltin.com/apps/easytv/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soneraltin.com/apps/easytv/fr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://soneraltin.com/apps/easytv/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://soneraltin.com/apps/easytv/ja/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://soneraltin.com/apps/easytv/it/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://soneraltin.com/apps/easytv/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://soneraltin.com/apps/easytv/nl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://soneraltin.com/apps/easytv/tr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soneraltin.com/apps/easytv/"/>
+  </url>
+  <url>
+    <loc>https://soneraltin.com/apps/easytv/de/privacy/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soneraltin.com/apps/easytv/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soneraltin.com/apps/easytv/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://soneraltin.com/apps/easytv/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://soneraltin.com/apps/easytv/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soneraltin.com/apps/easytv/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://soneraltin.com/apps/easytv/zh-hans/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://soneraltin.com/apps/easytv/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://soneraltin.com/apps/easytv/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://soneraltin.com/apps/easytv/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://soneraltin.com/apps/easytv/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://soneraltin.com/apps/easytv/tr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soneraltin.com/apps/easytv/privacy/"/>
+  </url>
+  <url>
+    <loc>https://soneraltin.com/apps/easytv/es/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soneraltin.com/apps/easytv/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soneraltin.com/apps/easytv/es/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://soneraltin.com/apps/easytv/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://soneraltin.com/apps/easytv/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soneraltin.com/apps/easytv/fr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://soneraltin.com/apps/easytv/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://soneraltin.com/apps/easytv/ja/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://soneraltin.com/apps/easytv/it/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://soneraltin.com/apps/easytv/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://soneraltin.com/apps/easytv/nl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://soneraltin.com/apps/easytv/tr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soneraltin.com/apps/easytv/"/>
+  </url>
+  <url>
+    <loc>https://soneraltin.com/apps/easytv/es/privacy/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soneraltin.com/apps/easytv/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soneraltin.com/apps/easytv/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://soneraltin.com/apps/easytv/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://soneraltin.com/apps/easytv/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soneraltin.com/apps/easytv/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://soneraltin.com/apps/easytv/zh-hans/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://soneraltin.com/apps/easytv/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://soneraltin.com/apps/easytv/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://soneraltin.com/apps/easytv/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://soneraltin.com/apps/easytv/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://soneraltin.com/apps/easytv/tr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soneraltin.com/apps/easytv/privacy/"/>
+  </url>
+  <url>
+    <loc>https://soneraltin.com/apps/easytv/fr/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soneraltin.com/apps/easytv/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soneraltin.com/apps/easytv/es/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://soneraltin.com/apps/easytv/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://soneraltin.com/apps/easytv/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soneraltin.com/apps/easytv/fr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://soneraltin.com/apps/easytv/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://soneraltin.com/apps/easytv/ja/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://soneraltin.com/apps/easytv/it/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://soneraltin.com/apps/easytv/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://soneraltin.com/apps/easytv/nl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://soneraltin.com/apps/easytv/tr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soneraltin.com/apps/easytv/"/>
+  </url>
+  <url>
+    <loc>https://soneraltin.com/apps/easytv/fr/privacy/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soneraltin.com/apps/easytv/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soneraltin.com/apps/easytv/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://soneraltin.com/apps/easytv/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://soneraltin.com/apps/easytv/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soneraltin.com/apps/easytv/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://soneraltin.com/apps/easytv/zh-hans/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://soneraltin.com/apps/easytv/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://soneraltin.com/apps/easytv/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://soneraltin.com/apps/easytv/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://soneraltin.com/apps/easytv/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://soneraltin.com/apps/easytv/tr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soneraltin.com/apps/easytv/privacy/"/>
   </url>
   <url>
     <loc>https://soneraltin.com/apps/easytv/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soneraltin.com/apps/easytv/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soneraltin.com/apps/easytv/es/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://soneraltin.com/apps/easytv/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://soneraltin.com/apps/easytv/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soneraltin.com/apps/easytv/fr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://soneraltin.com/apps/easytv/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://soneraltin.com/apps/easytv/ja/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://soneraltin.com/apps/easytv/it/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://soneraltin.com/apps/easytv/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://soneraltin.com/apps/easytv/nl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://soneraltin.com/apps/easytv/tr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soneraltin.com/apps/easytv/"/>
+  </url>
+  <url>
+    <loc>https://soneraltin.com/apps/easytv/it/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soneraltin.com/apps/easytv/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soneraltin.com/apps/easytv/es/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://soneraltin.com/apps/easytv/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://soneraltin.com/apps/easytv/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soneraltin.com/apps/easytv/fr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://soneraltin.com/apps/easytv/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://soneraltin.com/apps/easytv/ja/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://soneraltin.com/apps/easytv/it/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://soneraltin.com/apps/easytv/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://soneraltin.com/apps/easytv/nl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://soneraltin.com/apps/easytv/tr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soneraltin.com/apps/easytv/"/>
+  </url>
+  <url>
+    <loc>https://soneraltin.com/apps/easytv/it/privacy/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soneraltin.com/apps/easytv/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soneraltin.com/apps/easytv/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://soneraltin.com/apps/easytv/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://soneraltin.com/apps/easytv/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soneraltin.com/apps/easytv/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://soneraltin.com/apps/easytv/zh-hans/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://soneraltin.com/apps/easytv/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://soneraltin.com/apps/easytv/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://soneraltin.com/apps/easytv/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://soneraltin.com/apps/easytv/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://soneraltin.com/apps/easytv/tr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soneraltin.com/apps/easytv/privacy/"/>
+  </url>
+  <url>
+    <loc>https://soneraltin.com/apps/easytv/ja/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soneraltin.com/apps/easytv/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soneraltin.com/apps/easytv/es/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://soneraltin.com/apps/easytv/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://soneraltin.com/apps/easytv/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soneraltin.com/apps/easytv/fr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://soneraltin.com/apps/easytv/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://soneraltin.com/apps/easytv/ja/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://soneraltin.com/apps/easytv/it/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://soneraltin.com/apps/easytv/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://soneraltin.com/apps/easytv/nl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://soneraltin.com/apps/easytv/tr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soneraltin.com/apps/easytv/"/>
+  </url>
+  <url>
+    <loc>https://soneraltin.com/apps/easytv/ja/privacy/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soneraltin.com/apps/easytv/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soneraltin.com/apps/easytv/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://soneraltin.com/apps/easytv/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://soneraltin.com/apps/easytv/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soneraltin.com/apps/easytv/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://soneraltin.com/apps/easytv/zh-hans/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://soneraltin.com/apps/easytv/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://soneraltin.com/apps/easytv/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://soneraltin.com/apps/easytv/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://soneraltin.com/apps/easytv/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://soneraltin.com/apps/easytv/tr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soneraltin.com/apps/easytv/privacy/"/>
+  </url>
+  <url>
+    <loc>https://soneraltin.com/apps/easytv/ko/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soneraltin.com/apps/easytv/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soneraltin.com/apps/easytv/es/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://soneraltin.com/apps/easytv/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://soneraltin.com/apps/easytv/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soneraltin.com/apps/easytv/fr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://soneraltin.com/apps/easytv/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://soneraltin.com/apps/easytv/ja/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://soneraltin.com/apps/easytv/it/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://soneraltin.com/apps/easytv/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://soneraltin.com/apps/easytv/nl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://soneraltin.com/apps/easytv/tr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soneraltin.com/apps/easytv/"/>
+  </url>
+  <url>
+    <loc>https://soneraltin.com/apps/easytv/ko/privacy/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soneraltin.com/apps/easytv/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soneraltin.com/apps/easytv/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://soneraltin.com/apps/easytv/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://soneraltin.com/apps/easytv/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soneraltin.com/apps/easytv/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://soneraltin.com/apps/easytv/zh-hans/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://soneraltin.com/apps/easytv/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://soneraltin.com/apps/easytv/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://soneraltin.com/apps/easytv/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://soneraltin.com/apps/easytv/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://soneraltin.com/apps/easytv/tr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soneraltin.com/apps/easytv/privacy/"/>
+  </url>
+  <url>
+    <loc>https://soneraltin.com/apps/easytv/nl/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soneraltin.com/apps/easytv/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soneraltin.com/apps/easytv/es/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://soneraltin.com/apps/easytv/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://soneraltin.com/apps/easytv/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soneraltin.com/apps/easytv/fr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://soneraltin.com/apps/easytv/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://soneraltin.com/apps/easytv/ja/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://soneraltin.com/apps/easytv/it/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://soneraltin.com/apps/easytv/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://soneraltin.com/apps/easytv/nl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://soneraltin.com/apps/easytv/tr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soneraltin.com/apps/easytv/"/>
+  </url>
+  <url>
+    <loc>https://soneraltin.com/apps/easytv/nl/privacy/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soneraltin.com/apps/easytv/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soneraltin.com/apps/easytv/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://soneraltin.com/apps/easytv/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://soneraltin.com/apps/easytv/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soneraltin.com/apps/easytv/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://soneraltin.com/apps/easytv/zh-hans/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://soneraltin.com/apps/easytv/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://soneraltin.com/apps/easytv/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://soneraltin.com/apps/easytv/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://soneraltin.com/apps/easytv/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://soneraltin.com/apps/easytv/tr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soneraltin.com/apps/easytv/privacy/"/>
   </url>
   <url>
     <loc>https://soneraltin.com/apps/easytv/privacy/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soneraltin.com/apps/easytv/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soneraltin.com/apps/easytv/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://soneraltin.com/apps/easytv/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://soneraltin.com/apps/easytv/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soneraltin.com/apps/easytv/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://soneraltin.com/apps/easytv/zh-hans/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://soneraltin.com/apps/easytv/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://soneraltin.com/apps/easytv/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://soneraltin.com/apps/easytv/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://soneraltin.com/apps/easytv/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://soneraltin.com/apps/easytv/tr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soneraltin.com/apps/easytv/privacy/"/>
+  </url>
+  <url>
+    <loc>https://soneraltin.com/apps/easytv/tr/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soneraltin.com/apps/easytv/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soneraltin.com/apps/easytv/es/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://soneraltin.com/apps/easytv/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://soneraltin.com/apps/easytv/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soneraltin.com/apps/easytv/fr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://soneraltin.com/apps/easytv/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://soneraltin.com/apps/easytv/ja/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://soneraltin.com/apps/easytv/it/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://soneraltin.com/apps/easytv/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://soneraltin.com/apps/easytv/nl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://soneraltin.com/apps/easytv/tr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soneraltin.com/apps/easytv/"/>
+  </url>
+  <url>
+    <loc>https://soneraltin.com/apps/easytv/tr/privacy/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soneraltin.com/apps/easytv/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soneraltin.com/apps/easytv/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://soneraltin.com/apps/easytv/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://soneraltin.com/apps/easytv/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soneraltin.com/apps/easytv/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://soneraltin.com/apps/easytv/zh-hans/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://soneraltin.com/apps/easytv/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://soneraltin.com/apps/easytv/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://soneraltin.com/apps/easytv/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://soneraltin.com/apps/easytv/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://soneraltin.com/apps/easytv/tr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soneraltin.com/apps/easytv/privacy/"/>
+  </url>
+  <url>
+    <loc>https://soneraltin.com/apps/easytv/zh-hans/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soneraltin.com/apps/easytv/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soneraltin.com/apps/easytv/es/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://soneraltin.com/apps/easytv/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://soneraltin.com/apps/easytv/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soneraltin.com/apps/easytv/fr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://soneraltin.com/apps/easytv/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://soneraltin.com/apps/easytv/ja/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://soneraltin.com/apps/easytv/it/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://soneraltin.com/apps/easytv/ko/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://soneraltin.com/apps/easytv/nl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://soneraltin.com/apps/easytv/tr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soneraltin.com/apps/easytv/"/>
+  </url>
+  <url>
+    <loc>https://soneraltin.com/apps/easytv/zh-hans/privacy/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soneraltin.com/apps/easytv/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soneraltin.com/apps/easytv/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://soneraltin.com/apps/easytv/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://soneraltin.com/apps/easytv/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soneraltin.com/apps/easytv/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://soneraltin.com/apps/easytv/zh-hans/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://soneraltin.com/apps/easytv/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://soneraltin.com/apps/easytv/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://soneraltin.com/apps/easytv/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://soneraltin.com/apps/easytv/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://soneraltin.com/apps/easytv/tr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soneraltin.com/apps/easytv/privacy/"/>
+  </url>
+  <url>
+    <loc>https://soneraltin.com/apps/</loc>
+    <lastmod>2026-11-22</lastmod>
+  </url>
+  <url>
+    <loc>https://soneraltin.com/apps/kelimeduelo/challenge/</loc>
+    <lastmod>2026-11-25</lastmod>
+  </url>
+  <url>
+    <loc>https://soneraltin.com/</loc>
+    <lastmod>2026-11-22</lastmod>
   </url>
 </urlset>
