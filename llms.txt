@@ -1,0 +1,23 @@
+# Soner Altın
+
+> Soner Altın is a software engineer who makes iPhone apps. He has two dogs and likes running.
+
+Owner: Soner Altın, Software Engineer.
+Contact: hello@soneraltin.com
+
+The site is in English. Baseline - Sleep Debt reads Apple Health on iPhone and is not a medical device. Easytv Play is only a media player for the user’s own M3U or Xtream playlist. It does not provide channels, subscriptions, or content.
+
+## Home
+
+- [Home](https://soneraltin.com/): Soner Altın, a software engineer who makes iPhone apps. He has two dogs and likes running.
+
+## Apps
+
+- [Apps](https://soneraltin.com/apps/): The two iPhone apps, Baseline - Sleep Debt and Easytv Play, with a short description of each.
+- [Baseline - Sleep Debt](https://soneraltin.com/apps/baseline/): iPhone sleep debt app that reads Apple Health and explains the numbers on device with Apple Intelligence. Not a medical device.
+- [Easytv Play](https://soneraltin.com/apps/easytv/): iPhone media player for the user’s own M3U or Xtream playlist. It does not provide channels, subscriptions, or content, and it has no third-party tracking.
+
+## Privacy
+
+- [Baseline privacy policy](https://soneraltin.com/apps/baseline/privacy/): How Baseline handles Apple Health, on-device Apple Intelligence summaries, and the account.
+- [Easytv Play privacy policy](https://soneraltin.com/apps/easytv/privacy/): How Easytv Play handles an optional account, playlist login, favorites, and watch history. The app hosts no content.

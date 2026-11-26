@@ -18,13 +18,21 @@
   <meta name="robots" content="index,follow">
   <meta name="theme-color" content="#0a0a0c">
   <link rel="canonical" href="https://soneraltin.com/apps/baseline/">
+  <link rel="alternate" type="text/plain" href="/llms.txt" title="LLMs.txt">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Soner Altın">
   <meta property="og:title" content="Baseline - Sleep Debt App for iPhone">
   <meta property="og:description" content="Track sleep debt from Apple Health. Apple Intelligence writes a clearer analysis without changing the numbers.">
   <meta property="og:url" content="https://soneraltin.com/apps/baseline/">
-  <meta property="og:image" content="https://soneraltin.com/screenshots/baseline/05-debt.png">
+  <meta property="og:image" content="https://soneraltin.com/assets/og-baseline.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Baseline - Sleep Debt, an iPhone app that reads Apple Health. Not a medical device.">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Baseline - Sleep Debt App for iPhone">
+  <meta name="twitter:description" content="Track sleep debt from Apple Health. Apple Intelligence writes a clearer analysis without changing the numbers.">
+  <meta name="twitter:image" content="https://soneraltin.com/assets/og-baseline.png">
+  <meta name="twitter:image:alt" content="Baseline - Sleep Debt, an iPhone app that reads Apple Health. Not a medical device.">
   <link rel="stylesheet" href="../../assets/site.css">
   <link rel="preload" as="image" href="../../screenshots/baseline/05-debt.png">
   <script>document.documentElement.classList.add("js")</script>
@@ -33,7 +41,7 @@
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "SoftwareApplication",
+        "@type": ["SoftwareApplication", "MobileApplication"],
         "name": "Baseline - Sleep Debt",
         "operatingSystem": "iOS",
         "applicationCategory": "HealthApplication",
@@ -56,6 +64,7 @@
         },
         "author": {
           "@type": "Person",
+          "@id": "https://soneraltin.com/#person",
           "name": "Soner Altın",
           "url": "https://soneraltin.com/"
         }
@@ -76,31 +85,55 @@
             "name": "What is Baseline - Sleep Debt?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Baseline - Sleep Debt is an iPhone wellness app. It reads sleep, heart rate, heart rate variability, resting heart rate, and date of birth from Apple Health and turns them into one action for the day, plus a sleep debt figure for the last seven nights."
+              "text": "Baseline - Sleep Debt is an iPhone wellness app. It reads sleep, heart rate, heart rate variability, resting heart rate, and date of birth from Apple Health, and it turns those readings into a sleep debt figure."
             }
           },
           {
             "@type": "Question",
-            "name": "How does Apple Intelligence work in Baseline?",
+            "name": "What does Baseline - Sleep Debt do?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "On iPhones where Apple Intelligence is available, the on-device model explains sleep debt, today's suggestion, heart and readiness, trends, and how mood lines up with deep sleep. It also answers questions about the last 30 days. It keeps every number and time as calculated. If Apple Intelligence is off, Baseline shows the same facts in plain text. Those summaries are not stored on our server."
+              "text": "It shows sleep debt for the last seven nights, readiness and the overnight heart curve, mood check-ins, and one action for today. Where Apple Intelligence is available, an on-device model explains those readings and keeps every number as calculated. The screens are in English."
             }
           },
           {
             "@type": "Question",
-            "name": "Does Baseline send Apple Health data to a server?",
+            "name": "What does Baseline - Sleep Debt not do?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Health readings stay on the iPhone and are not sold or sent to an advertising network. Sign in with Apple stores an account, sleep schedule, and mood check-ins with Supabase. A mood check-in can include that day's sleep efficiency, resting heart rate, and heart rate variability."
+              "text": "It is not a medical device. It does not diagnose, treat, or prevent any condition. It does not write back to Apple Health, sell those readings, or send them to an advertising network. It does not invent a number when the history is still too short."
             }
           },
           {
             "@type": "Question",
-            "name": "Is Baseline a medical app?",
+            "name": "What does a sleep debt number mean here?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No. Baseline is a wellness app. It does not diagnose, treat, or prevent any condition, and it does not invent a number when history is still too short."
+              "text": "It is the recent shortfall against the hours you set as your need, shown from Apple Health sleep. It is a wellness figure for the last week, not a medical debt and not a diagnosis."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Apple Intelligence change my sleep or heart numbers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Apple Intelligence rewrites the explanation. Sleep debt, heart rate, HRV, readiness, and the chosen action stay as calculated. If the model is off, you still see the plain result."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which iPhones get the AI analysis?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The Apple Intelligence writing appears when Apple Intelligence is available and turned on for that iPhone. Other iPhones still get the sleep debt tracker, heart screens, mood, and today’s action in plain text."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is my Apple Health data uploaded for the AI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The summaries are generated on device and are not stored on our server. Account data is separate: email if Apple provides it, your sleep schedule, and mood check-ins. Details are in the Baseline privacy policy."
             }
           }
         ]
@@ -307,6 +340,18 @@
             </figure>
           </li>
         </ul>
+      </div>
+    </section>
+
+    <section class="block" id="brief" aria-labelledby="brief-title">
+      <div class="wrap">
+        <div class="prose reveal">
+          <p class="eyebrow">In brief</p>
+          <h2 id="brief-title">What Baseline is, and is not</h2>
+          <p><strong>What is Baseline - Sleep Debt?</strong> Baseline - Sleep Debt is an iPhone wellness app. It reads sleep, heart rate, heart rate variability, resting heart rate, and date of birth from Apple Health, and it turns those readings into a sleep debt figure.</p>
+          <p><strong>What does Baseline - Sleep Debt do?</strong> It shows sleep debt for the last seven nights, readiness and the overnight heart curve, mood check-ins, and one action for today. Where Apple Intelligence is available, an on-device model explains those readings and keeps every number as calculated. The screens are in English.</p>
+          <p><strong>What does Baseline - Sleep Debt not do?</strong> It is not a medical device. It does not diagnose, treat, or prevent any condition. It does not write back to Apple Health, sell those readings, or send them to an advertising network. It does not invent a number when the history is still too short.</p>
+        </div>
       </div>
     </section>
 
